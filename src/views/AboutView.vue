@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-400 text-white">
     <div 
-      class="w-full h-64 bg-cover bg-center flex items-center justify-center"
+      class="w-full h-40 bg-cover bg-center flex items-center justify-center"
       style="background-image: url('https://images.presentationgo.com/2025/04/pepperoni-pizza-closeup.jpg')"
     >
       <h1 class="text-white text-4xl font-bold bg-black/80 px-6 py-3 rounded-lg">
@@ -25,13 +25,14 @@
           :name="pizza.name"
           :description="pizza.description"
           :price="pizza.price"
+          :image="pizza.image"
         />
       </div>
 
       <div class="flex justify-center pt-10">
         <button
           @click="goBack"
-          class="border border-red-500 bg-red-100 text-black px-4 py-2 rounded-lg hover:bg-red-300"
+          class="border border-red-500 bg-red-100 text-black px-4 py-2 rounded-lg cursor-pointer hover:bg-red-300"
         >
           Back
         </button>
@@ -56,18 +57,21 @@ export default {
         name: "Margherita",
         description: "Tomato sauce, mozzarella, basil",
         price: 5,
+        image:"https://ooni.com/cdn/shop/articles/20220211142347-margherita-9920_ba86be55-674e-4f35-8094-2067ab41a671.jpg?v=1737104576&width=1080"
       },
       {
         id: 2,
         name: "Pepperoni",
         description: "Tomato sauce, mozzarella, pepperoni",
         price: 6,
+        image:"https://daddioskitchen.com/wp-content/uploads/2023/01/IMG-5299.jpg"
       },
       {
         id: 3,
         name: "Alfredo",
         description: "Alfredo sauce, mozzarella, mushroom",
         price: 6,
+        image:"https://belleofthekitchen.com/wp-content/uploads/2014/06/IMG_5797.jpg"
       },
     ];
 
