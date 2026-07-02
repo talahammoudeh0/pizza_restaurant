@@ -57,21 +57,21 @@ export default {
         name: "Margherita",
         description: "Tomato sauce, mozzarella, basil",
         price: 5,
-        image:"https://ooni.com/cdn/shop/articles/20220211142347-margherita-9920_ba86be55-674e-4f35-8094-2067ab41a671.jpg?v=1737104576&width=1080"
+        image:"public/Pizza Margherita.webp"
       },
       {
         id: 2,
         name: "Pepperoni",
         description: "Tomato sauce, mozzarella, pepperoni",
         price: 6,
-        image:"https://daddioskitchen.com/wp-content/uploads/2023/01/IMG-5299.jpg"
+        image:"public/Pizza pepperoni.jpg"
       },
       {
         id: 3,
         name: "Alfredo",
         description: "Alfredo sauce, mozzarella, mushroom",
         price: 6,
-        image:"https://belleofthekitchen.com/wp-content/uploads/2014/06/IMG_5797.jpg"
+        image:"public/Pizza Alfredo.jpg"
       },
     ];
 

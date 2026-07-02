@@ -2,7 +2,7 @@
   <div
     class="min-h-screen bg-cover bg-center flex items-center justify-center p-4"
     style="
-      background-image: url('https://expertfoodrecipes.com/wp-content/uploads/2026/05/bc288297-e22b-4952-beb4-1dd403bd7386-1200x600.png');
+      background-image: url('public/Pizza1.png');
     "
   >
     <div
